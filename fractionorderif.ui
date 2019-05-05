@@ -1,0 +1,318 @@
+<ui version="4.0" >
+ <class>FractionOrderIFClass</class>
+ <widget class="QMainWindow" name="FractionOrderIFClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>FractionOrderIF</string>
+  </property>
+  <widget class="QWidget" name="centralWidget" >
+   <widget class="QPushButton" name="SelecteSEGY" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>16</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Selecte SEGY</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_FName" >
+    <property name="geometry" >
+     <rect>
+      <x>130</x>
+      <y>16</y>
+      <width>441</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly" >
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_inline1" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>97</y>
+      <width>246</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_crossline2" >
+    <property name="geometry" >
+     <rect>
+      <x>340</x>
+      <y>160</y>
+      <width>246</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_inline2" >
+    <property name="geometry" >
+     <rect>
+      <x>340</x>
+      <y>97</y>
+      <width>246</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="crossline_label" >
+    <property name="geometry" >
+     <rect>
+      <x>7</x>
+      <y>160</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>crossline</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="inline_label" >
+    <property name="geometry" >
+     <rect>
+      <x>7</x>
+      <y>97</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>inline</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_crossline1" >
+    <property name="geometry" >
+     <rect>
+      <x>88</x>
+      <y>160</y>
+      <width>246</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_samplenum" >
+    <property name="geometry" >
+     <rect>
+      <x>9</x>
+      <y>200</y>
+      <width>75</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>sample num</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_samplenum" >
+    <property name="geometry" >
+     <rect>
+      <x>90</x>
+      <y>200</y>
+      <width>246</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>2001</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_order" >
+    <property name="geometry" >
+     <rect>
+      <x>390</x>
+      <y>200</y>
+      <width>81</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_samplenum_2" >
+    <property name="geometry" >
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>order</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SelecteSEGY_i" >
+    <property name="geometry" >
+     <rect>
+      <x>13</x>
+      <y>60</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Selecte SEGY_i</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_FName_i" >
+    <property name="geometry" >
+     <rect>
+      <x>133</x>
+      <y>60</y>
+      <width>441</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="readOnly" >
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget" >
+    <property name="geometry" >
+     <rect>
+      <x>190</x>
+      <y>250</y>
+      <width>234</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout" >
+     <item row="0" column="1" >
+      <widget class="QPushButton" name="Processing_FO_pc" >
+       <property name="text" >
+        <string>Processing_FOD_pc</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" >
+      <widget class="QPushButton" name="Processing_FO" >
+       <property name="text" >
+        <string>Processing_FOD_sun</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1" >
+      <widget class="QPushButton" name="Processing_IF_pc" >
+       <property name="text" >
+        <string>Processing IF_pc</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" >
+      <widget class="QPushButton" name="Processing_IF" >
+       <property name="text" >
+        <string>Processing IF_sun</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+    <zorder>Processing_FO_pc</zorder>
+    <zorder>Processing_FO</zorder>
+    <zorder>Processing_IF_pc</zorder>
+    <zorder>Processing_IF</zorder>
+   </widget>
+   <widget class="QPushButton" name="Processing_AIF_pc" >
+    <property name="geometry" >
+     <rect>
+      <x>300</x>
+      <y>310</y>
+      <width>111</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Average IF_pc</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_eps" >
+    <property name="geometry" >
+     <rect>
+      <x>520</x>
+      <y>200</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>0.05</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_samplenum_3" >
+    <property name="geometry" >
+     <rect>
+      <x>480</x>
+      <y>200</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>eps</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Processing_IF_pc_Modify" >
+    <property name="geometry" >
+     <rect>
+      <x>440</x>
+      <y>280</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Processing IF_pc_M</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar" >
+   <attribute name="toolBarArea" >
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak" >
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <resources/>
+ <connections/>
+</ui>
